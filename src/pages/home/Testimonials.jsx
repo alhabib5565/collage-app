@@ -12,7 +12,7 @@ import SectionTitle from '../../components/SectionTitle';
 const Testimonials = () => {
     const [allReview, setAllReview] = useState([])
     useEffect(() => {
-        fetch('http://localhost:5000/allreview')
+        fetch(`${import.meta.env.VITE_API_URL}/allreview`)
             .then(res => res.json())
             .then(data => setAllReview(data))
     }, [])
