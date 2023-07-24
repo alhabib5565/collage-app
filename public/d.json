@@ -1,0 +1,37 @@
+[
+    {
+        "collageName": "ABC University",
+        "collageImage": "http://example.com/abc_university.jpg",
+        "admissionDates": "2023-09-01",
+        "events": [
+            {
+                "eventsName": "Orientation Day",
+                "eventsDate": "2023-09-15"
+            },
+            {
+                "eventsName": "Annual Music Concert",
+                "eventsDate": "2023-11-15"
+            }
+        ],
+        "research": [
+            {
+                "researchName": "Study on Climate Change",
+                "researchHistory": "Ongoing research on climate patterns.",
+                "researchWork": ""
+            },
+            {
+                "researchName": "Medical Research",
+                "researchHistory": "Research on innovative medical treatments.",
+                "researchWork": ""
+            }
+        ],
+        "sports": [
+            {
+                "sportsName": "Football",
+                "sportsFacilities": "Football field, gymnasium."
+            }
+        ],
+        "admissionProcess": "Visit the official website and submit an online application.",
+        "collageRating": ""
+    }
+]

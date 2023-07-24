@@ -1,0 +1,222 @@
+[
+    {
+        "collageName": "ABC University",
+        "collageImage": "http://example.com/abc_university.jpg",
+        "admissionDates": "2023-09-01",
+        "events": [
+            {
+                "eventsName": "Orientation Day",
+                "eventsDate": "2023-09-15"
+            },
+            {
+                "eventsName": "Annual Music Concert",
+                "eventsDate": "2023-11-15"
+            }
+        ],
+        "research": [
+            {
+                "researchName": "Study on Climate Change",
+                "researchHistory": "Ongoing research on climate patterns."
+            },
+            {
+                "researchName": "Medical Research",
+                "researchHistory": "Research on innovative medical treatments."
+            }
+        ],
+        "sports": [
+            {
+                "sportsName": "Football",
+                "sportsFacilities": "Football field, gymnasium."
+            }
+        ],
+        "admissionProcess": "Visit the official website and submit an online application."
+    },
+    {
+        "collageName": "XYZ College",
+        "collageImage": "http://example.com/xyz_college.jpg",
+        "admissionDates": "2023-08-15",
+        "events": [
+            {
+                "eventsName": "Open House",
+                "eventsDate": "2023-09-01"
+            }
+        ],
+        "research": [
+            {
+                "researchName": "Biomedical Studies",
+                "researchHistory": "Pioneering research in medical science."
+            },
+            {
+                "researchName": "Environmental Research",
+                "researchHistory": "Research on ecosystem preservation."
+            }
+        ],
+        "sports": [
+            {
+                "sportsName": "Basketball",
+                "sportsFacilities": "Indoor basketball court."
+            }
+        ],
+        "admissionProcess": "Submit the application form along with academic transcripts."
+    },
+    {
+        "collageName": "ABC Law School",
+        "collageImage": "http://example.com/abc_law_school.jpg",
+        "admissionDates": "2023-10-20",
+        "events": [
+            {
+                "eventsName": "Moot Court Competition",
+                "eventsDate": "2023-11-15"
+            },
+            {
+                "eventsName": "Legal Symposium",
+                "eventsDate": "2023-12-10"
+            }
+        ],
+        "research": [
+            {
+                "researchName": "Criminal Law",
+                "researchHistory": "Research in criminal justice and law enforcement."
+            }
+        ],
+        "sports": [
+            {
+                "sportsName": "Basketball",
+                "sportsFacilities": "Indoor basketball court."
+            },
+            {
+                "sportsName": "Yoga",
+                "sportsFacilities": "Yoga studio."
+            }
+        ],
+        "admissionProcess": "s"
+    },
+    {
+        "collageName": "123 Medical College",
+        "collageImage": "http://example.com/123_medical_college.jpg",
+        "admissionDates": "2023-09-15",
+        "events": [
+            {
+                "eventsName": "Medical Camp",
+                "eventsDate": "2023-10-10"
+            },
+            {
+                "eventsName": "CME Conference",
+                "eventsDate": "2023-11-20"
+            }
+        ],
+        "research": [
+            {
+                "researchName": "Genetic Research",
+                "researchHistory": "Advancements in genetic studies."
+            }
+        ],
+        "sports": [
+            {
+                "sportsName": "Volleyball",
+                "sportsFacilities": "Volleyball court."
+            },
+            {
+                "sportsName": "Athletics",
+                "sportsFacilities": "Running track."
+            }
+        ],
+        "admissionProcess": "Appear for the medical entrance exam and counseling."
+    },
+    {
+        "collageName": "XYZ Business School",
+        "collageImage": "http://example.com/xyz_business_school.jpg",
+        "admissionDates": "2023-11-01",
+        "events": [
+            {
+                "eventsName": "MBA Fair",
+                "eventsDate": "2023-11-15"
+            },
+            {
+                "eventsName": "Guest Speaker Series",
+                "eventsDate": "2023-12-05"
+            }
+        ],
+        "research": [
+            {
+                "researchName": "Business Analytics",
+                "researchHistory": "Exploring data-driven decision-making in business."
+            }
+        ],
+        "sports": [
+            {
+                "sportsName": "Golf",
+                "sportsFacilities": "Golf course."
+            },
+            {
+                "sportsName": "Squash",
+                "sportsFacilities": "Squash courts."
+            }
+        ],
+        "admissionProcess": "Appear for the entrance exam and group discussion."
+    },
+    {
+        "collageName": "ABC Arts College",
+        "collageImage": "http://example.com/abc_arts_college.jpg",
+        "admissionDates": "2023-07-30",
+        "events": [
+            {
+                "eventsName": "Art Exhibition",
+                "eventsDate": "2023-08-20"
+            },
+            {
+                "eventsName": "Literary Festival",
+                "eventsDate": "2023-09-25"
+            }
+        ],
+        "research": [
+            {
+                "researchName": "Modern Art Movements",
+                "researchHistory": "Exploring the evolution of modern art."
+            }
+        ],
+        "sports": [
+            {
+                "sportsName": "Chess",
+                "sportsFacilities": "Indoor chess facilities."
+            },
+            {
+                "sportsName": "Table Tennis",
+                "sportsFacilities": "Table tennis tables."
+            }
+        ],
+        "admissionProcess": "Submit portfolio and attend the admission interview."
+    },
+    {
+        "collageName": "XYZ College",
+        "collageImage": "http://example.com/xyz_college.jpg",
+        "admissionDates": "2023-08-15",
+        "events": [
+            {
+                "eventsName": "Open House",
+                "eventsDate": "2023-09-01"
+            },
+            {
+                "eventsName": "Alumni Reunion",
+                "eventsDate": "2023-10-10"
+            }
+        ],
+        "research": [
+            {
+                "researchName": "Biomedical Studies",
+                "researchHistory": "Pioneering research in medical science."
+            }
+        ],
+        "sports": [
+            {
+                "sportsName": "Basketball",
+                "sportsFacilities": "Indoor basketball court."
+            },
+            {
+                "sportsName": "Tennis",
+                "sportsFacilities": "Tennis courts."
+            }
+        ],
+        "admissionProcess": "Submit application form along with academic transcripts."
+    }
+]
