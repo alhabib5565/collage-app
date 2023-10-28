@@ -5,18 +5,8 @@ import { Link } from 'react-router-dom';
 import useCollageData from '../../api/useCollageData';
 
 const AllCollage = () => {
-    const [loading, setLoading, collages] = useCollageData()
+    const [loading, setLoading, collages, setCollages] = useCollageData()
     const searchRef = useRef(' ')
-    /*     useEffect(() => {
-            setLoading(true)
-            fetch(`${import.meta.env.VITE_API_URL}/collages`)
-                .then(res => res.json())
-                .then(data => {
-                    setCollages(data)
-                    setLoading(false)
-                })
-        }, []) */
-    console.log(collages)
     const handleSearch = () => {
         const searchTxt = searchRef.current.value
         setLoading(true)
@@ -29,7 +19,7 @@ const AllCollage = () => {
     }
     return (
         <div className='pt-20'>
-            <div className='mt-8 md:mt-14 lg:mt-20 my-container'>
+            <div className='mt-8 md:mt-14 my-container'>
                 <SectionTitle></SectionTitle>
 
                 <div className="form-control w-fit mx-auto my-10">

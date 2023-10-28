@@ -5,13 +5,12 @@ import { Link } from 'react-router-dom';
 
 const Admission = () => {
     const [loading, , collages] = useCollageData()
-    console.log(collages)
     return (
         <div className='pt-20'>
             {
                 loading ? <Loader></Loader>
                     : <div className='my-container'>
-                        <div className='h-full w-full grid grid-cols-1 mt-8 md:mt-14 lg:mt-20 md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8'>
+                        <div className='h-full w-full grid grid-cols-1 mt-8 md:mt-14 md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8'>
                             {
                                 collages?.map((collage, index) => <div key={index}>
                                     <Link to={`/admission/${collage._id}`}>

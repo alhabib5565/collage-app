@@ -54,8 +54,15 @@ const Navbar = () => {
                     }
                     {
                         user ? <div className='flex gap-3 items-center'>
+                            <li className='text-gray-300 cursor-pointer  font-medium uppercase hover:text-white hover:scale-105 duration-300'>
+                            <Link to='mycollage'>
+                            mycollage
+                            </Link>
+                        </li>
                             <button onClick={handleLogout} className="my-googleBtn bg-white">Log Out</button>
-                            <img className='w-12 h-12 rounded-full border-2 border-yellow-300 p-[1px]' src={`${user?.photoURL}`} alt="" /></div> : <li className='text-gray-300 cursor-pointer  font-medium uppercase hover:text-white hover:scale-105 duration-300'>
+                            <img className='w-12 h-12 rounded-full border-2 border-yellow-300 p-[1px]' src={`${user?.photoURL}`} alt="" />
+                            </div>
+                             : <li className='text-gray-300 cursor-pointer  font-medium uppercase hover:text-white hover:scale-105 duration-300'>
                             <Link to='/login'>
                                 login
                             </Link>

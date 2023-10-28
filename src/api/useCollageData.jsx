@@ -8,7 +8,6 @@ const useCollageData = () => {
         fetch(`${import.meta.env.VITE_API_URL}/collages`)
         .then(res => res.json())
         .then(data => {
-            console.log(data)
             setCollages(data)
             setLoading(false)
         })
