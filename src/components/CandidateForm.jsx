@@ -14,7 +14,7 @@ const CandidateForm = ({ collageId }) => {
         console.log(data);
         const formData = new FormData()
         formData.append('image', data?.image[0])
-        const { subject, candidatePhone, dob, candidateName, candidateEmail, address } = data
+        const { subject, candidatePhone, birthYear, candidateName, candidateEmail, address } = data
         setLoading(true)
         fetch(`https://api.imgbb.com/1/upload?key=${import.meta.env.VITE_IMGBB_API_KEY}`, {
             method: "POST",
@@ -100,8 +100,8 @@ const CandidateForm = ({ collageId }) => {
             </div>
 
             <div className="mb-4">
-                <label htmlFor="dob">Date of Birth</label>
-                <input {...register('dob')} id="dob" type="date" className="w-full border rounded px-2 py-[1px] md:py-1 text-black" />
+                <label htmlFor="birthYear">Date of Birth</label>
+                <input {...register('birthYear')} id="birthYear" type="date" className="w-full border rounded px-2 py-[1px] md:py-1 text-black" />
             </div>
 
             <div className='flex flex-col md:flex-row items-center md:gap-4'>
